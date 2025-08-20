@@ -10,3 +10,8 @@ The DMMF is a filter power hourse. Besides all the normal filter outputs it has 
 - CV inputs with attenuverters for cutoff and resonance.
 - Unattenuated frequency CV input, calibrated for 1V/Oct tracking.
 - Clean self-oscillation across the audio range, extending into very low frequencies, with constant amplitude.
+
+  Modifications:
+  v1
+- all HP BP LP needs a 1k resistor to the banana.
+- For the missing left HP connection connect the 1k resistor from the last but one header (right bottom) to the banana.
